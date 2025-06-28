@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React, { useEffect, useState } from 'react';
 
 // Skills Data
 const skills = {
@@ -23,19 +22,55 @@ const skills = {
     ],
 };
 
-const Skills = () => {
-    const SkillBar = ({ name, level }) => (
+const SkillBar = ({ name, level }) => {
+    const [filledLevel, setFilledLevel] = useState(0);
+    const [displayLevel, setDisplayLevel] = useState(0);
+
+    useEffect(() => {
+        const fillTimeout = setTimeout(() => {
+            setFilledLevel(level);
+        }, 300); // delay before bar animation starts
+
+        // Count-up animation
+        let current = 0;
+        const duration = 2000; // slower: 2 seconds
+        const steps = level;
+        const increment = level / steps;
+        const intervalTime = duration / steps;
+
+        const interval = setInterval(() => {
+            current += increment;
+            if (current >= level) {
+                setDisplayLevel(level);
+                clearInterval(interval);
+            } else {
+                setDisplayLevel(Math.floor(current));
+            }
+        }, intervalTime);
+
+        return () => {
+            clearTimeout(fillTimeout);
+            clearInterval(interval);
+        };
+    }, [level]);
+
+    return (
         <div className="mb-4">
             <div className="flex justify-between mb-1">
                 <span className="text-base font-medium text-gray-300">{name}</span>
-                <span className="text-sm font-medium text-blue-400">{level}%</span>
+                <span className="text-sm font-medium text-blue-400">{displayLevel}%</span>
             </div>
-            <div className="w-full bg-gray-700 rounded-full h-2.5">
-                <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: `${level}%` }}></div>
+            <div className="w-full bg-gray-700 rounded-full h-2.5 overflow-hidden">
+                <div
+                    className="bg-blue-600 h-2.5 rounded-full transition-all duration-[2000ms] ease-in-out"
+                    style={{ width: `${filledLevel}%` }}
+                ></div>
             </div>
         </div>
     );
+};
 
+const Skills = () => {
     return (
         <section id="skills" className="py-20 bg-gray-900 text-white">
             <div className="max-w-screen-xl mx-auto px-4">
@@ -57,6 +92,6 @@ const Skills = () => {
             </div>
         </section>
     );
-}
+};
 
 export default Skills;
