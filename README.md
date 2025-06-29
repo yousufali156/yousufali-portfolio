@@ -1,13 +1,128 @@
-# React + Vite
+# 🌐 Md. Yousuf Ali – Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my professional portfolio! I'm **Md. Yousuf Ali**, a passionate and results-driven **MERN Stack Developer**, combining analytical thinking with modern web technologies to craft impactful digital experiences.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Live Site
 
-## Expanding the ESLint configuration
+🌍 [View Portfolio Live](https://yousufali-portfolio.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# yousufali-portfolio
+---
+
+## ✨ About This Project
+
+This portfolio website is a reflection of my journey, skills, and the projects I've built as a full-stack web developer. Designed with modern UI/UX practices, it highlights my expertise, showcases my work, and provides an easy way for recruiters and clients to get in touch.
+
+---
+
+## 👨‍💻 My Skills Technologies
+
+### 💻 Frontend:
+- **React.js**
+- **JavaScript (ES6+)**
+- **Tailwind CSS**
+- **HTML5 & CSS3**
+- **React Router**
+
+### 🛠 Backend:
+- **Node.js**
+- **Express.js**
+- **MongoDB**
+- **REST API**
+
+### 🧰 Tools & Platforms:
+- **Firebase (Auth & Hosting)**
+- **Vercel / Netlify**
+- **Git & GitHub**
+- **Figma** for UI Design
+- **Postman** for API Testing
+
+---
+
+## 🔍 Key Features
+
+- ✅ **Fully Responsive** – Mobile-friendly, pixel-perfect design.
+- 🔐 **Secure and Modern** – Built with the MERN stack and Firebase.
+- 🚀 **Fast Performance** – Optimized loading and SEO-friendly structure.
+- 🧩 **Project Showcase** – Real-world projects with tech stack details.
+- 📄 **Resume Download** – Quick access to my resume.
+- 📬 **Contact Section** – Direct email and phone contact options.
+
+---
+
+## 📚 Education
+
+🎓 **Master of Social Science (MSS) in Economics**  
+Govt. Azizul Haque College, Bogura  
+**Session:** 2019–2020
+
+Though my academic background is in economics, I transitioned into tech by combining my logical mindset with a deep interest in coding and problem-solving.
+
+---
+
+## 🧠 My Skills
+
+### 🔷 Frontend:
+- React – 95%
+- JavaScript (ES6+) – 90%
+- HTML & CSS – 98%
+- Tailwind CSS – 92%
+
+### 🔶 Backend:
+- Node.js – 88%
+- Express.js – 85%
+- MongoDB – 80%
+- REST API – 90%
+
+### 🛠 Tools:
+- Git & GitHub – 90%
+- VS Code – 95%
+- Postman – 85%
+- Figma – 75%
+
+---
+
+## 🚀 Featured Projects
+
+### 🟣 **Task Match**
+A freelance task marketplace connecting job posters and workers.
+> **Tech:** React, Node.js, MongoDB, Tailwind CSS, Firebase, Vercel
+
+### 🔵 **Dragon News**
+A live news portal delivering breaking stories with a modern UI.
+> **Tech:** React, Firebase, Tailwind CSS, DaisyUI, Netlify
+
+### 🟢 **PortfoGen**
+A portfolio generator for developers and freelancers.
+> **Tech:** Next.js, GraphQL, Tailwind CSS, DaisyUI, Netlify
+
+🔗 _Each project includes a detailed tech stack and is hosted live._
+
+---
+
+## 📬 Get In Touch
+
+I’m currently available for **freelance projects** and **job opportunities**.  
+If you have a project in mind or would like to collaborate, feel free to reach out:
+
+📧 **Email:** mdyousufali.dev@gmail.com  
+📞 **Phone:** +880 1754 954385  
+🔗 **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/yousufali156)
+
+---
+
+## 📄 Download My Resume
+
+🔗 [Click Here to Download Resume](https://your-resume-link.com)
+
+---
+
+## 🏁 Conclusion
+
+Thank you for visiting my portfolio!  
+I built this project with care, creativity, and attention to detail. If you're a recruiter, client, or collaborator, I’d love to hear from you. Let's build something great together!
+
+---
+
+
