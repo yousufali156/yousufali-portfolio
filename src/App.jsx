@@ -1,5 +1,5 @@
-import React from 'react'
-import './App.css'
+import React from 'react';
+import './App.css';
 
 import Navbar from "./Projects/Navbar";
 import Hero from "./Projects/Hero";
@@ -10,11 +10,9 @@ import Projects from "./Projects/Projects";
 import Contact from "./Projects/Contact";
 import Footer from "./Projects/Footer";
 
-
-
 export default function App() {
   return (
-    <div className="bg-gray-900 text-white">
+    <div className="min-h-screen font-sans transition-colors duration-300">
       <Navbar />
       <main>
         <Hero />
@@ -23,11 +21,10 @@ export default function App() {
         <Education />
         <Projects />
         <Contact />
+        
+      
       </main>
       <Footer />
     </div>
   );
 }
-
-
-

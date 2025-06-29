@@ -1,14 +1,14 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
+// src/main.jsx
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import './index.css';
-
-import App from './App.jsx';
-import About from './Projects/About'; 
+import App from './App';
+import { ThemeProvider } from './ThemeContext';
 
 import {
   createBrowserRouter,
   RouterProvider,
-} from 'react-router'; 
+} from 'react-router-dom';
 
 const router = createBrowserRouter([
   {
@@ -17,8 +17,10 @@ const router = createBrowserRouter([
   },
 ]);
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <RouterProvider router={router} />
-  </StrictMode>
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <ThemeProvider>
+      <RouterProvider router={router} />
+    </ThemeProvider>
+  </React.StrictMode>
 );
