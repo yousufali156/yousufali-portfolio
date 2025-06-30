@@ -4,7 +4,15 @@ const Education = () => {
     return (
         <section id="education" className="py-20 bg-base-100 text-base-content transition-colors duration-300">
             <div className="max-w-screen-xl mx-auto px-4">
-                <h2 className="text-4xl font-bold text-center mb-12">Education</h2>
+
+                <div className="flex justify-center mb-12 font-bold text-xl items-center gap-4">
+                    <div className="w-24 h-px bg-base-content"></div>
+                    <div className="py-2 px-5 rounded-lg bg-base-200 font-medium">
+                        Education & Achievement
+                    </div>
+                    <div className="w-24 h-px bg-base-content"></div>
+                </div>
+
                 <div className="max-w-3xl mx-auto">
                     <div className="bg-base-200 p-6 rounded-lg shadow-lg border-l-4 border-primary">
                         <h3 className="text-2xl font-bold">Master of Social Science in Economics</h3>

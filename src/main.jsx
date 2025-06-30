@@ -8,13 +8,15 @@ import { ThemeProvider } from './ThemeContext';
 import {
   createBrowserRouter,
   RouterProvider,
-} from 'react-router-dom';
+} from 'react-router';
+
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
   },
+  
 ]);
 
 

@@ -4,7 +4,14 @@ const About = () => {
   return (
     <section id="about" className="py-20 bg-base-100 text-base-content transition-colors duration-300">
       <div className="max-w-screen-xl mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12">About Me</h2>
+
+        <div className="flex justify-center font-bold text-xl mb-12 items-center gap-4">
+          <div className="w-24 h-px bg-base-content"></div>
+          <div className="py-2 px-5 rounded-lg bg-base-200 font-medium">
+            About Me
+          </div>
+          <div className="w-24 h-px bg-base-content"></div>
+        </div>
         <div className="grid md:grid-cols-5 gap-12 items-center">
           {/* Image */}
           <div className="md:col-span-2 flex justify-center">

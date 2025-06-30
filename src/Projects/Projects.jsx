@@ -213,7 +213,15 @@ const Projects = () => {
 	return (
 		<section id="projects" className="py-20 bg-base-100 text-base-content transition-colors duration-300">
 			<div className="max-w-screen-xl mx-auto px-4">
-				<h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
+
+				<div className="flex justify-center mb-12 font-bold text-xl items-center gap-4">
+                    <div className="w-24 h-px bg-base-content"></div>
+                    <div className="py-2 px-5 rounded-lg bg-base-200 font-medium">
+                        My Projects
+                    </div>
+                    <div className="w-24 h-px bg-base-content"></div>
+                </div>
+				
 				<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 					{projects.map((p) => (
 						<ProjectCard key={p.id} project={p} onSelect={setSelectedProject} />
