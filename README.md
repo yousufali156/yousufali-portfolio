@@ -2,7 +2,8 @@
 
 
 Welcome to my professional portfolio! I'm **Md. Yousuf Ali**, a passionate and results-driven **MERN Stack Developer**, combining analytical thinking with modern web technologies to craft impactful digital experiences.<br/>
-<br/> 🚀 Full Stack Web Developer (MERN) | React & Node.js Expert | Crafting Scalable, High-Performance & User-Centric Web Apps | Problem Solver & Clean Code Advocate | Continuous Learner
+<br/> 🚀 **Full Stack Web Developer (MERN)** | **React & Node.js Expert** | **Crafting Scalable, High-Performance & User-Centric Web Apps** | **Problem Solver & Clean Code Advocate** | **Continuous Learner**
+
 
 ---
 
@@ -151,10 +152,10 @@ A portfolio generator for developers and freelancers.
 I’m currently available for **freelance projects** and **job opportunities**.  
 If you have a project in mind or would like to collaborate, feel free to reach out:
 
-📧 **Email:** mdyousufali.dev@gmail.com  
-📞 **Phone:** +880 1754 954385  
-🔗 **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/yousufali156) <br/>
-💻 **GitHub:** github.com/yousufali156
+- 📧 **Email:** [mdyousufali.dev@gmail.com](mailto:mdyousufali.dev@gmail.com)  
+- 🌐 **Portfolio:** [yousufali-portfolio.vercel.app](https://yousufali-portfolio.vercel.app/)  
+- 💻 **GitHub:** [github.com/yousufali156](https://github.com/yousufali156)  
+- 📞 **Phone:** [+8801754954385](tel:+8801754954385)  
 
 ---
 
