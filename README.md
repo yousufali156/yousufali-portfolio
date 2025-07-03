@@ -15,64 +15,49 @@ Welcome to my professional portfolio! I'm **Md. Yousuf Ali**, a passionate and r
 ## ✨ About This Project
 
 This portfolio website is a reflection of my journey, skills, and the projects I've built as a full-stack web developer. Designed with modern UI/UX practices, it highlights my expertise, showcases my work, and provides an easy way for recruiters and clients to get in touch.
-<br/>
+
 ---
 
 
-<br/>
-# About Me 🚀
 
-💡 I’m a passionate Full Stack Web Developer (MERN) with a relentless drive to build scalable, high-performance, and user-centric web applications that solve real-world problems. For me, coding is not just a skill—it's a craft where clean code, design thinking, and performance meet to create impactful digital experiences.
-<br/>
+### 🛠 Technical Expertise
 
-###🛠 Technical Expertise
-<br/>
+#### 🔷 Frontend  
+React.js, Next.js, JavaScript (ES6+), TypeScript, HTML5, CSS3, Tailwind CSS, Framer Motion
 
-###Frontend: React.js, Next.js, JavaScript (ES6+), TypeScript, HTML5, CSS3, Tailwind CSS, Framer Motion
-<br/>
+#### 🔶 Backend  
+Node.js, Express.js, RESTful APIs, JWT Authentication
 
-###Backend: Node.js, Express.js, RESTful APIs, JWT Authentication
-<br/>
+#### 🟢 Database  
+MongoDB, Firebase Firestore
 
-###Database: MongoDB, Firebase Firestore
-<br/>
+#### ⚙️ Tools & DevOps  
+Git, GitHub, Firebase Auth, Stripe Integration, Vercel, Netlify
 
-###Tools & DevOps: Git, GitHub, Firebase Auth, Stripe Payment Integration, Vercel, Netlify
-<br/>
+#### 🎨 UI/UX  
+Component-Based Architecture, Responsive Design, Performance Optimization
 
-###UI/UX: Component-Based Architecture, Responsive Design, Performance Optimization
-<br/>
+---
 
-###🏆 Career Achievements
-<br/>
+### 🏆 Career Achievements
 
-Developed 10+ full-stack applications, including e-commerce platforms, dynamic dashboards, and real-time systems
-<br/>
-Created a shopping app with Stripe integration that improved user conversion by 40%
-<br/>
-Built secure-auth systems using JWT, OAuth, and role-based access control
-<br/>
-Improved backend performance with optimized MongoDB queries & caching
-<br/>
-Followed industry best practices like MVC, modular code structure, and Git workflows for scalable solutions
-<br/>
+✅ Developed **10+ full-stack applications**, including e-commerce platforms, dashboards & real-time systems  
+✅ Created a shopping app with **Stripe integration** that boosted conversion by **40%**  
+✅ Built secure auth systems using **JWT, OAuth, and RBAC**  
+✅ Improved backend performance via **optimized MongoDB queries & caching**  
+✅ Applied industry best practices: **MVC**, modular structure, and Git workflows for scalable code
 
-###🔥 Passion & Goals
-<br/>
+---
 
-Lifelong learner – always experimenting with new tech like microservices, cloud-native apps, and Web3 tools.
-<br/>
-Advocate for open-source contribution and empowering the dev community.
-<br/>
-Passionate about clean, secure code and building products that enhance real lives, not just user stats
-<br/>
-Looking to join a growth-driven team that values innovation, mentorship, and impact
-<br/>
-Enjoy mentoring and writing about tech to support emerging developers.
+### 🔥 Passion & Goals
 
-<br/>
-<br/>
-<br/>
+🌱 Lifelong learner — always experimenting with **microservices**, **cloud-native apps**, and **Web3**  
+🤝 Advocate for **open-source** and empowering new devs through mentorship  
+🧠 Passionate about **clean, secure code** and building **real-life impactful products**  
+🎯 Seeking to join a **growth-driven team** that values innovation, mentorship & user-first thinking  
+✍️ Enjoy writing about tech and helping others break into development
+
+---
 
 
 
